@@ -32,7 +32,7 @@ jobs:
 
       - name: "Run tests"
         run: npm test
-    lint:
+  lint:
     name: Code standards
     runs-on: ubuntu-latest
     timeout-minutes: 10
